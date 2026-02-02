@@ -50,7 +50,7 @@
 
 ### 🌏 中文翻译 | Chinese Translations
 
-- [PER Coding Style 中文版](./translates/chinese/per-coding-style/index.md)
+- [PER Coding Style 中文版](./translates/per-coding-style-chinese.md)
 
 ### 🤖 Agent Skills
 

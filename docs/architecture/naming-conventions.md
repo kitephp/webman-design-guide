@@ -290,7 +290,7 @@ interface INotificationService { }      // ❌ 使用 I 前缀
 
 ### 规则
 
-- **{动词}{名词}Service** 模式
+- **`{动词}{名词}Service`** 模式
 - **描述用例** (describe use case)
 - **单一职责** (single responsibility)
 
@@ -320,21 +320,82 @@ final class CreateOrder { }             // ❌ 缺少 Service 后缀
 
 ### 常用动词
 
-| 动作 | 英文动词 | 示例 |
-|-----|---------|------|
-| 创建 | Create | `CreateOrderService` |
-| 更新 | Update | `UpdateOrderService` |
-| 删除 | Delete | `DeleteOrderService` |
-| 取消 | Cancel | `CancelOrderService` |
-| 获取单个 | Get | `GetOrderService` |
-| 获取列表 | List | `ListOrdersService` |
-| 搜索 | Search | `SearchOrdersService` |
-| 导出 | Export | `ExportOrdersService` |
-| 导入 | Import | `ImportOrdersService` |
-| 发送 | Send | `SendNotificationService` |
-| 处理 | Process | `ProcessPaymentService` |
-| 验证 | Validate | `ValidateOrderService` |
-| 计算 | Calculate | `CalculateTotalService` |
+<table>
+<thead>
+<tr>
+<th>动作</th>
+<th>英文动词</th>
+<th>示例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>创建</td>
+<td>Create</td>
+<td><code>CreateOrderService</code></td>
+</tr>
+<tr>
+<td>更新</td>
+<td>Update</td>
+<td><code>UpdateOrderService</code></td>
+</tr>
+<tr>
+<td>删除</td>
+<td>Delete</td>
+<td><code>DeleteOrderService</code></td>
+</tr>
+<tr>
+<td>取消</td>
+<td>Cancel</td>
+<td><code>CancelOrderService</code></td>
+</tr>
+<tr>
+<td>获取单个</td>
+<td>Get</td>
+<td><code>GetOrderService</code></td>
+</tr>
+<tr>
+<td>获取列表</td>
+<td>List</td>
+<td><code>ListOrdersService</code></td>
+</tr>
+<tr>
+<td>搜索</td>
+<td>Search</td>
+<td><code>SearchOrdersService</code></td>
+</tr>
+<tr>
+<td>导出</td>
+<td>Export</td>
+<td><code>ExportOrdersService</code></td>
+</tr>
+<tr>
+<td>导入</td>
+<td>Import</td>
+<td><code>ImportOrdersService</code></td>
+</tr>
+<tr>
+<td>发送</td>
+<td>Send</td>
+<td><code>SendNotificationService</code></td>
+</tr>
+<tr>
+<td>处理</td>
+<td>Process</td>
+<td><code>ProcessPaymentService</code></td>
+</tr>
+<tr>
+<td>验证</td>
+<td>Validate</td>
+<td><code>ValidateOrderService</code></td>
+</tr>
+<tr>
+<td>计算</td>
+<td>Calculate</td>
+<td><code>CalculateTotalService</code></td>
+</tr>
+</tbody>
+</table>
 
 ### 完整示例
 
@@ -393,7 +454,7 @@ declare(strict_types=1);
 
 namespace app\infrastructure\repository\eloquent;
 
-// ✅ 正确示例 - {实现方式}{实体名}Repository
+// ✅ 正确示例 - `{实现方式}{实体名}Repository`
 final class EloquentOrderRepository implements OrderRepositoryInterface { }
 final class EloquentUserRepository implements UserRepositoryInterface { }
 final class EloquentProductRepository implements ProductRepositoryInterface { }
@@ -738,9 +799,9 @@ final class Order
 
 ### Service 和 Repository
 
-- [ ] Service 使用 {动词}{名词}Service 模式
+- [ ] Service 使用 `{动词}{名词}Service` 模式
 - [ ] Repository 接口使用 Interface 后缀
-- [ ] Repository 实现使用 {实现方式}{实体名}Repository 模式
+- [ ] Repository 实现使用 `{实现方式}{实体名}Repository` 模式
 
 ### 变量和方法
 

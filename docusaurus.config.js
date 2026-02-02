@@ -62,10 +62,6 @@ const config = {
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'Webman Design Guide',
-        logo: {
-          alt: 'Webman Logo',
-          src: 'img/logo.svg',
-        },
         items: [
           {
             type: 'docSidebar',

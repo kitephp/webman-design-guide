@@ -225,8 +225,8 @@ MIT License - 详见 [LICENSE](./LICENSE) 文件
 
 ## 📮 联系方式 | Contact
 
-- 提交 Issue: [GitHub Issues](https://github.com/your-repo/issues)
-- 讨论交流: [GitHub Discussions](https://github.com/your-repo/discussions)
+- 提交 Issue: [GitHub Issues](https://github.com/kitephp/webman-design-guide/issues)
+- 讨论交流: [GitHub Discussions](https://github.com/kitephp/webman-design-guide/discussions)
 
 ---
 

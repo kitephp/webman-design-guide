@@ -1,0 +1,150 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Webman Design Guide",
+  "favicon": "/favicon.png",
+  "colors": {
+    "primary": "#0D9373",
+    "light": "#07C983",
+    "dark": "#0D9373",
+    "anchors": {
+      "from": "#0D9373",
+      "to": "#07C983"
+    }
+  },
+  "topbarLinks": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/kitephp/webman-design-guide"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Skills",
+    "url": "https://github.com/kitephp/webman-design-skills"
+  },
+  "tabs": [
+    {
+      "name": "架构设计",
+      "url": "docs/zh-CN/architecture"
+    },
+    {
+      "name": "系统示例",
+      "url": "docs/zh-CN/examples"
+    },
+    {
+      "name": "工具集成",
+      "url": "docs/zh-CN/tools"
+    }
+  ],
+  "navigation": {
+    "languages": [
+      {
+        "language": "zh",
+        "groups": [
+          {
+            "group": "开始",
+            "pages": ["docs/zh-CN/introduction"]
+          },
+          {
+            "group": "架构设计",
+            "pages": [
+              "docs/zh-CN/architecture/directory-structure",
+              "docs/zh-CN/architecture/dependency-rules",
+              "docs/zh-CN/architecture/naming-conventions",
+              "docs/zh-CN/architecture/layer-responsibilities",
+              "docs/zh-CN/architecture/lightweight-structure"
+            ]
+          },
+          {
+            "group": "系统示例",
+            "pages": [
+              "docs/zh-CN/examples/e-commerce",
+              "docs/zh-CN/examples/cms",
+              "docs/zh-CN/examples/admin-dashboard",
+              "docs/zh-CN/examples/multi-tenant-saas",
+              "docs/zh-CN/examples/restful-api",
+              "docs/zh-CN/examples/im-chat",
+              "docs/zh-CN/examples/ticketing-system",
+              "docs/zh-CN/examples/payment-gateway",
+              "docs/zh-CN/examples/analytics-reporting",
+              "docs/zh-CN/examples/microservices"
+            ]
+          },
+          {
+            "group": "工具集成",
+            "pages": [
+              "docs/zh-CN/tools/pint",
+              "docs/zh-CN/tools/phpstan",
+              "docs/zh-CN/tools/rector",
+              "docs/zh-CN/tools/pest",
+              "docs/zh-CN/tools/saloon",
+              "docs/zh-CN/tools/ci-pipeline"
+            ]
+          },
+          {
+            "group": "编码规范",
+            "pages": [
+              "docs/zh-CN/coding-standards/per-coding-style",
+              "docs/zh-CN/coding-standards/php-the-right-way",
+              "docs/zh-CN/coding-standards/per-coding-style-chinese"
+            ]
+          }
+        ]
+      },
+      {
+        "language": "en",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": ["docs/en/introduction"]
+          },
+          {
+            "group": "Architecture",
+            "pages": [
+              "docs/en/architecture/directory-structure",
+              "docs/en/architecture/dependency-rules",
+              "docs/en/architecture/naming-conventions",
+              "docs/en/architecture/layer-responsibilities",
+              "docs/en/architecture/lightweight-structure"
+            ]
+          },
+          {
+            "group": "System Examples",
+            "pages": [
+              "docs/en/examples/e-commerce",
+              "docs/en/examples/cms",
+              "docs/en/examples/admin-dashboard",
+              "docs/en/examples/multi-tenant-saas",
+              "docs/en/examples/restful-api",
+              "docs/en/examples/im-chat",
+              "docs/en/examples/ticketing-system",
+              "docs/en/examples/payment-gateway",
+              "docs/en/examples/analytics-reporting",
+              "docs/en/examples/microservices"
+            ]
+          },
+          {
+            "group": "Tool Integration",
+            "pages": [
+              "docs/en/tools/pint",
+              "docs/en/tools/phpstan",
+              "docs/en/tools/rector",
+              "docs/en/tools/pest",
+              "docs/en/tools/saloon",
+              "docs/en/tools/ci-pipeline"
+            ]
+          },
+          {
+            "group": "Coding Standards",
+            "pages": [
+              "docs/en/coding-standards/per-coding-style",
+              "docs/en/coding-standards/php-the-right-way"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "footerSocials": {
+    "github": "https://github.com/kitephp/webman-design-guide"
+  }
+}

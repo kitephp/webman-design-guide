@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'Webman Design Guide',
   description: 'Webman 框架设计规范、架构指南和最佳实践',
+  base: '/webman-design-guide/',
 
   locales: {
     'zh-CN': {

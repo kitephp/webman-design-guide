@@ -211,7 +211,7 @@ app/
 
 **核心类**:
 - `infrastructure/gateway/external/saloon/ExternalApiConnector.php` - Saloon 连接器
-- 参考文档: [Saloon Integration](../tools/saloon.mdx)
+- 参考文档: [Saloon Integration](/zh-CN/tools/saloon)
 
 ---
 
@@ -578,7 +578,7 @@ final class ApiRateLimitMiddleware implements MiddlewareInterface
 
 ### 6. Saloon HTTP 客户端集成
 
-详细文档请参考: [Saloon Integration](../tools/saloon.mdx)
+详细文档请参考: [Saloon Integration](/zh-CN/tools/saloon)
 
 ```php
 <?php
@@ -939,13 +939,13 @@ GET    /api/v1/users/{id}/posts  # 获取用户的文章
 ### 6. 第三方 API 集成
 
 - 使用 Saloon 进行 HTTP 客户端集成
-- 详细文档: [Saloon Integration](../tools/saloon.mdx)
+- 详细文档: [Saloon Integration](/zh-CN/tools/saloon)
 
 ---
 
 ## 相关文档
 
-- [目录结构规范](../architecture/directory-structure.mdx)
-- [依赖方向规则](../architecture/dependency-rules.mdx)
-- [PER Coding Style](../coding-standards/per-coding-style.mdx)
-- [Saloon Integration](../tools/saloon.mdx)
+- [目录结构规范](/zh-CN/architecture/directory-structure)
+- [依赖方向规则](/zh-CN/architecture/dependency-rules)
+- [PER Coding Style](/zh-CN/coding-standards/per-coding-style)
+- [Saloon Integration](/zh-CN/tools/saloon)

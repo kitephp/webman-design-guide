@@ -485,6 +485,6 @@ final class HandleWebhookService
 
 ## 相关文档
 
-- [Saloon Integration](/tools/saloon)
-- [目录结构规范](/architecture/directory-structure)
-- [依赖方向规则](/architecture/dependency-rules)
+- [Saloon Integration](/zh-CN/tools/saloon)
+- [目录结构规范](/zh-CN/architecture/directory-structure)
+- [依赖方向规则](/zh-CN/architecture/dependency-rules)

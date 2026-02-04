@@ -635,6 +635,6 @@ final class MetricAggregationTask
 
 ## 相关文档
 
-- [目录结构规范](/architecture/directory-structure)
-- [依赖方向规则](/architecture/dependency-rules)
-- [Pest 测试框架](/tools/pest)
+- [目录结构规范](/zh-CN/architecture/directory-structure)
+- [依赖方向规则](/zh-CN/architecture/dependency-rules)
+- [Pest 测试框架](/zh-CN/tools/pest)

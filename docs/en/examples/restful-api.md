@@ -211,7 +211,7 @@ app/
 
 **Core Classes**:
 - `infrastructure/gateway/external/saloon/ExternalApiConnector.php` - Saloon connector
-- Reference: [Saloon Integration](../tools/saloon.mdx)
+- Reference: [Saloon Integration](/en/tools/saloon)
 
 ---
 
@@ -578,7 +578,7 @@ final class ApiRateLimitMiddleware implements MiddlewareInterface
 
 ### 6. Saloon HTTP Client Integration
 
-For detailed documentation, see: [Saloon Integration](../tools/saloon.mdx)
+For detailed documentation, see: [Saloon Integration](/en/tools/saloon)
 
 ```php
 <?php
@@ -939,13 +939,13 @@ GET    /api/v1/users/{id}/posts  # Get user's posts
 ### 6. Third-party API Integration
 
 - Use Saloon for HTTP client integration
-- Detailed documentation: [Saloon Integration](../tools/saloon.mdx)
+- Detailed documentation: [Saloon Integration](/en/tools/saloon)
 
 ---
 
 ## Related Documentation
 
-- [Directory Structure Standards](../architecture/directory-structure.mdx)
-- [Dependency Direction Rules](../architecture/dependency-rules.mdx)
-- [PER Coding Style](../coding-standards/per-coding-style.mdx)
-- [Saloon Integration](../tools/saloon.mdx)
+- [Directory Structure Standards](/en/architecture/directory-structure)
+- [Dependency Direction Rules](/en/architecture/dependency-rules)
+- [PER Coding Style](/en/coding-standards/per-coding-style)
+- [Saloon Integration](/en/tools/saloon)

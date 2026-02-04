@@ -858,6 +858,6 @@ Use state machine pattern to manage order status:
 
 ## Related Documentation
 
-- [Directory Structure Standards](../architecture/directory-structure.mdx)
-- [Dependency Direction Rules](../architecture/dependency-rules.mdx)
-- [PER Coding Style](../coding-standards/per-coding-style.mdx)
+- [Directory Structure Standards](/en/architecture/directory-structure)
+- [Dependency Direction Rules](/en/architecture/dependency-rules)
+- [PER Coding Style](/en/coding-standards/per-coding-style)

@@ -1,9 +1,11 @@
 ---
 title: Webman Design Guide
-head:
-  - - meta
-    - http-equiv: refresh
-      content: 0; url=/webman-design-guide/zh-CN/introduction
 ---
 
-[点击进入中文文档](/webman-design-guide/zh-CN/introduction) | [English Documentation](/webman-design-guide/en/introduction)
+<script setup>
+if (typeof window !== 'undefined') {
+  window.location.href = './zh-CN/introduction.html'
+}
+</script>
+
+[点击进入中文文档](/zh-CN/introduction) | [English Documentation](/en/introduction)
